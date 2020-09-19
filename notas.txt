@@ -1,0 +1,171 @@
+  
+  action_show_subareas
+  
+ Actions:
+  utter_advise_project:
+  - text: ""
+  
+  Probably actions:
+  
+  with suggestion list:
+   utter_ask_subareas:
+  - text: "¿Cuál de éstas subáreas de {area} te causa más curiosidad o interés?"
+  
+  
+    utter_ask_select_no_least_disliked:
+  - text: "Entonces, ¿en cuál de estas te gustaría trabajar?"
+  
+  "Te recomiendo estos PROYECTOS en el contexto de AREA"
+   
+   Además 
+Considerar intención (intent) donde elige el area en ese momento ***  en vez de info_area, search_area
+
+Quitar subáreas
+
+
+Descripcion de la idea o la direccion del proyecto recomendado
+
+
+
+
+
+
+
+
+en action.py
+
+full_path = ENDPOINTS["base"]
+        projects_json = requests.get(full_path).json()
+
+
+stories alternativo:
+
+luego de esta version se quito todo:   
+"""- utter_ask_subareas
+* info_subarea{"subarea":"Cálculo Probabilístico"}
+  - action_show_subareas"""
+
+## todo bien
+* greet
+  - utter_how_can_i_help
+* inform
+  - utter_ask_general_area
+* info_area{"area":"Matemáticas"}
+  - area_form
+  - form{"name": "area_form"}
+  - form{"name": null}
+  - utter_ask_subareas
+* info_subarea{"subarea":"Cálculo Probabilístico"}
+  - action_show_subareas
+  - action_project_search
+* pleased
+  - utter_completed
+
+## segunda no
+* greet
+  - utter_how_can_i_help
+* inform
+  - utter_ask_general_area
+* inform_undecided 
+  - utter_ask_favorite_subject
+* info_area{"area":"Matemáticas"}
+  - utter_ask_subareas
+* info_subarea{"subarea":"Cálculo Probabilístico"}
+  - action_show_subareas
+  - action_project_search
+* pleased
+  - utter_completed
+  
+## segunda no, tercera no
+* greet
+  - utter_how_can_i_help
+* inform
+  - utter_ask_general_area
+* inform_undecided 
+  - utter_ask_favorite_subject
+* inform_undecided_level_2
+  - utter_ask_least_disliked
+* info_area{"area":"Matemáticas"}
+  - utter_ask_subareas
+* info_subarea{"subarea":"Cálculo Probabilístico"}
+  - action_show_subareas
+  - action_project_search
+* pleased
+  - utter_completed
+  
+## segunda no, tercera no, cuarta no
+* greet
+  - utter_how_can_i_help
+* inform
+  - utter_ask_general_area
+* inform_undecided 
+  - utter_ask_favorite_subject
+* inform_undecided_level_2
+  - utter_ask_least_disliked
+* inform_undecided_level_3
+  - utter_ask_select_no_least_disliked
+* info_area{"area":"Matemáticas"}
+  - utter_ask_subareas
+* info_subarea{"subarea":"Cálculo Probabilístico"}
+  - action_show_subareas
+  - action_project_search
+* pleased
+  - utter_completed
+  
+## segunda no, tercera no, cuarta no, quinta no
+* greet
+  - utter_how_can_i_help
+* inform
+  - utter_ask_general_area
+* inform_undecided 
+  - utter_ask_favorite_subject
+* inform_undecided_level_2
+  - utter_ask_least_disliked
+* inform_undecided_level_3
+  - utter_ask_select_no_least_disliked
+* inform_undecided_level_4
+  - utter_recommend_anyway
+  - action_project_search_random
+* pleased
+  - utter_completed
+  
+## otro proyecto
+* not_pleased{"project_chosen":"Radio Comunitaria"}
+  - action_project_search
+  - utter_ask_if_ok
+
+## happy path
+* greet
+  - utter_how_can_i_help
+* mood_great
+  - utter_happy
+
+## sad path 1
+* greet
+  - utter_how_can_i_help
+* mood_unhappy
+  - utter_cheer_up
+  - utter_did_that_help
+* affirm
+  - utter_happy
+
+## sad path 2
+* greet
+  - utter_how_can_i_help
+* mood_unhappy
+  - utter_cheer_up
+  - utter_did_that_help
+* deny
+  - utter_goodbye
+
+## say goodbye
+* goodbye
+  - utter_goodbye
+
+## bot challenge
+* bot_challenge
+  - utter_iamabot
+
+## bot troll
+* troll
+  - utter_goodbye

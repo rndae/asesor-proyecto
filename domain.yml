@@ -1,0 +1,95 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - troll
+  - inform
+  - info_area
+  - info_subarea
+  - pleased
+  - not_pleased
+  - inform_undecided
+  - inform_undecided_level_2
+  - inform_undecided_level_3
+  - inform_undecided_level_4
+
+entities:
+  - area
+  - subarea
+  - project
+  
+slots:
+  area:
+    type: text
+  subarea:
+    type: text
+  project:
+    type: text
+
+actions:
+  - action_show_subareas
+  - action_project_search
+  - action_project_search_random
+  
+forms:
+  - area_form
+
+responses:
+  utter_greet:
+  - text: "Hola! Cómo estás?"
+
+  utter_cheer_up:
+  - text: "Aquí hay algo para animarte:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Eso te ayudó?"
+
+  utter_happy:
+  - text: "Genial, sigue así!"
+
+  utter_goodbye:
+  - text: "Chao"
+
+  utter_iamabot:
+  - text: "Soy un alienígena espeluznante."
+  
+  utter_completed:
+  - text: "Me alegra que te guste. Te recomiendo investigues lo más que puedas al respecto. Buena suerte!"
+  
+  utter_how_can_i_help:
+  - text: "Hola. Soy un asesor de proyectos. Puedo ayudarte a escoger un proyecto interesante. Dime en qué ayudarte"
+  - text: "Hola. Soy un asesor de decisión de tópicos de proyectos, ¿cuéntame en qué necesitas ayuda?"
+  
+  utter_ask_general_area:
+  - text: "De manera muy general, ¿en qué área del \"saber\" o del \"hacer\" te gustaría trabajar?"
+  
+  utter_ask_favorite_subject:
+  - text: "¿Cuál es tu materia favorita en la escuela?"
+  
+  utter_ask_subareas:
+  - text: "¿Cuál de éstas subáreas de {area} te causa más curiosidad o interés?"
+  
+  utter_ask_least_disliked:
+  - text: "Entiendo, en ese caso, ¿cuál es la que menos te disgusta?"
+  
+  utter_ask_select_no_least_disliked:
+  - text: "Entonces, ¿en cuál de éstas te gustaría trabajar?"
+  
+  utter_project:
+  - text: "Te recomiendo esta idea para un proyecto: {project} en el contexto de {area}."
+  - text: "Qué te parece este tema de proyecto: {project} en el contexto de {area}."
+  
+  utter_ask_if_ok:
+  - text: "¿Te gusta este o te recomiendo otro?"
+  
+  utter_recommend_anyway:
+  - text: "De todos modos te recomiendo esta idea para un proyecto: {project}"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
