@@ -33,6 +33,7 @@
 ## intent:info_subarea
 - ewe
 - quisiera saber que subarea puede ser
+
 ## intent:pleased
 - UwU
 - :)
@@ -48,6 +49,7 @@
 - cool
 - me gusta
 - esta bueno
+- [gracias](area)
 
 ## intent:not_pleased
 - :( quiero otro
@@ -64,6 +66,7 @@
 - no quiero este
 - no quiero ese
 - otrito
+- no grax
 
 ## intent:inform_undecided
 - no tengo idea
@@ -85,7 +88,7 @@
 - creo que no quiero
 - seré un vaguito jeje
 - uff que paja parce
- 
+
 ## intent:troll
 - qué aburrimiento
 - no quiero nada
@@ -139,18 +142,67 @@
 - quien eres?
 - que es lo que eres?
 
+## synonym:Artes Plásticas
+- artes
+- artes plasticas
+- plasticas
+- art
+- arte
+- Artes
+- arte plastica
+- Arte
+- Plasticas
+
+## synonym:Biología
+- bio
+- biolo
+- vio
+- violo
+- viologia
+- Vio
+- Viologia
+- Bio
+- Biologia
+
+## synonym:Ciencias Naturales
+- ciencias
+- ciencias naturales
+- naturales
+- naturaleza
+
+## synonym:Ciencias Sociales
+- sociales
+- sociologia
+- sociología
+- Sociales
+
+## synonym:Computación
+- compu
+- computeishon
+- computacion
+- Computacion
+- computadoras
+- informatica
+
 ## synonym:Deporte
 - Educación Física
 - educacion fiscia
 - educacion fisica
 - fisica educacion
 
-## synonym:Música
-- música
-- musica
-- Musica
-- music
-- miuziq
+## synonym:Educación Cívica
+- Cívica
+- civica
+- civismo
+- educacion civica
+- educasion civica
+- educacion ciudadana
+
+## synonym:Filosofía
+- filo
+- filosifa
+- filosoifa
+- filosofia
 
 ## synonym:Física
 - fisica
@@ -164,36 +216,12 @@
 - física cuántica
 - Física Cuántica
 
-## synonym:Química
-- quimica
-- kimica
-- chemistry
-- Chemistry
-- qimica
-- Quimica
-
-## synonym:Educación Cívica
-- Cívica
-- civica
-- civismo
-- educacion civica
-- educasion civica
-- educacion ciudadana
-
-## synonym:Ciencias Naturales
-- ciencias
-- ciencias naturales
-- naturales
-- naturaleza
-
-## synonym:Matemáticas
-- mate
-- logica
-- ciencias matematicas
-- Mate
-- matecito
-- maths
-- calculo
+## synonym:Inglés
+- English
+- inglish
+- english
+- ingles
+- ingle
 
 ## synonym:Lenguaje
 - Literatura
@@ -207,51 +235,26 @@
 - lenguaje
 - lengua
 
-## synonym:Inglés
-- English
-- inglish
-- english
-- ingles
-- ingle
+## synonym:Matemáticas
+- mate
+- logica
+- ciencias matematicas
+- Mate
+- matecito
+- maths
+- calculo
 
-## synonym:Ciencias Sociales
-- sociales
-- sociologia
-- sociología
-- Sociales
+## synonym:Música
+- música
+- musica
+- Musica
+- music
+- miuziq
 
-## synonym:Artes Plásticas
-- artes
-- artes plasticas
-- plasticas
-- art
-- arte
-- Artes
-- arte plastica
-- Arte
-- Plasticas
-
-## synonym:Computación
-- compu
-- computeishon
-- computacion
-- Computacion
-- computadoras
-- informatica
-
-## synonym:Filosofía
-- filo
-- filosifa
-- filosoifa
-- filosofia
-
-## synonym:Biología
-- bio
-- biolo
-- vio
-- violo
-- viologia
-- Vio
-- Viologia
-- Bio
-- Biologia
+## synonym:Química
+- quimica
+- kimica
+- chemistry
+- Chemistry
+- qimica
+- Quimica
