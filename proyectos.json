@@ -1,0 +1,429 @@
+[{
+	"titulo": "Big Data",
+	"area": ["Computación", "Matemáticas", "Ciencias Sociales", "Filosofía", "Historia", "Lenguaje"],
+  "ods": [9, 11]
+}, {
+	"titulo": "Open Data",
+	"area": ["Computación", "Matemáticas", "Ciencias Sociales", "Filosofía", "Historia"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Comercio Electrónico",
+	"area": ["Computación", "Matemáticas", "Ciencias Sociales"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Diseño responsive y “user experience”: la era del móvil",
+	"area": ["Computación", "Psicología", "Filosofía"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Multidispositivos electrónicos como Google Glass",
+	"area": ["Computación", "Física"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Ropa Inteligente",
+	"area": ["Computación", "Psicología", "Filosofía", "Deporte", "Química", "Artes Plásticas"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Salud Inteligente",
+	"area": ["Computación", "Biología", "Ciencias Naturales", "Deporte"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Internet de las cosas",
+	"area": ["Computación", "Matemáticas", "Lenguaje"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Ciudades Inteligentes o Smart Cities",
+	"area": ["Computación", "Geografía", "Ciencias Sociales", "Educación Cívica", "Artes Plásticas"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Comunicación redes sociales: branding personal branding corporativo",
+	"area": ["Computación", "Matemáticas", "Lenguaje", "Inglés", "Quechua"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Marketing digital  y Publicidad online",
+	"area": ["Lenguaje", "Ciencias Sociales", "Religión"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Gobierno electrónico y transformación digital",
+	"area": ["Computación", "Educación Cívica", "Ciencias Sociales", "Filosofía"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Bitcoin – Blockchain",
+	"area": ["Computación", "Matemáticas"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Fintech – Servicios financieros",
+	"area": ["Computación", "Matemáticas", "Ciencias Sociales"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Pagos móviles",
+	"area": ["Computación", "Matemáticas", "Ciencias Sociales"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Vehículos inteligentes (coches autónomos, vehículos sin conductor…)",
+	"area": ["Computación", "Matemáticas", "Geografía", "Física"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Inteligencia Artificial",
+	"area": ["Computación", "Matemáticas", "Filosofía", "Psicología", "Música", "Artes Plásticas", "Lenguaje"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Robótica",
+	"area": ["Computación", "Matemáticas", "Artes Plásticas"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Cirugía robótica",
+	"area": ["Computación", "Matemáticas"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Drones",
+	"area": ["Computación", "Matemáticas", "Artes Plásticas"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Impresión 3D",
+	"area": ["Computación", "Matemáticas", "Artes Plásticas", "Física"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Turismo inteligente",
+	"area": ["Computación", "Historia", "Geografía", "Ciencias Sociales", "Inglés", "Quechua", "Psicología"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Conectividad",
+	"area": ["Computación", "Matemáticas", "Física"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Apps de servicios para usuarios (Aeropuertos, transporte, servicios..)",
+	"area": ["Computación", "Ciencias Sociales", "Inglés", "Quechua", "Psicología", "Educación Cívica"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Guías e información online",
+	"area": ["Lenguaje", "Inglés", "Quechua", "Educación Cívica", "Religión", "Ciencias Sociales", "Psicología", "Filosofía"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Transporte inteligente",
+	"area": ["Computación", "Matemáticas", "Artes Plásticas"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Smart cities e internet de las cosas con foco en la actividad turística",
+	"area": ["Computación", "Ciencias Sociales", "Educación Cívica", "Psicología", "Filosofía"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Hoteles inteligentes (sensorización, domótica avanzada…)",
+	"area": ["Computación", "Ciencias Sociales", "Física", "Historia", "Lenguaje", "Inglés", "Quechua", "Psicología"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Marketing digital aplicado a la hosteleria",
+	"area": ["Computación", "Lenguaje", "Inglés", "Quechua", "Historia", "Psicología"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Reservas online",
+	"area": ["Computación", "Lenguaje", "Inglés", "Quechua", "Psicología"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Redes sociales especializadas",
+	"area": ["Computación", "Lenguaje", "Inglés", "Quechua", "Religión"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Personalización de ofertas y servicios",
+	"area": ["Computación", "Lenguaje", "Inglés", "Quechua", "Religión", "Psicología", "Filosofía"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Desintermediación en servicios (transporte, alojamiento…)",
+	"area": ["Computación", "Lenguaje", "Inglés", "Quechua"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Pagos móviles",
+	"area": ["Computación", "Matemáticas", "Lenguaje", "Ciencias Sociales"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Energía: siguiendo innovaciones disruptivas",
+	"area": ["Computación", "Química", "Física", "Ciencias Naturales", "Biología"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Nanotecnología",
+	"area": ["Computación", "Física", "Matemáticas", "Ciencias Naturales"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Nanomedicina",
+	"area": ["Biología", "Física", "Química", "Ciencias Naturales"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Nanopartículas",
+	"area": ["Física", "Matemáticas", "Química"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Nuevos materiales",
+	"area": ["Física", "Química", "Biología", "Ciencias Naturales"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Biotecnología",
+	"area": ["Computación", "Química", "Física"],
+	"ods": [9, 11]
+}, {
+	"titulo": "ADN",
+	"area": ["Biología", "Computación", "Química"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Agricultura ecológica (agricultura de precisión)",
+	"area": ["Biología", "Química", "Geografía"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Comercialización de productos agrarios online",
+	"area": ["Computación", "Geografía", "Lenguaje", "Inglés", "Quechua", "Biología"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Cambio Climático",
+	"area": ["Biología", "Química", "Ciencias Naturales"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Tratamiento de residuos",
+	"area": ["Biología", "Ciencias Naturales"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Lucha contra la contaminación",
+	"area": ["Biología", "Ciencias Naturales", "Ciencias Sociales", "Psicología"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Computación en la nube",
+	"area": ["Computación", "Matemáticas"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Servicios de lujo online",
+	"area": ["Computación"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Cursos Masivos Abiertos Online (MOOCs)",
+	"area": ["Computación", "Educación Cívica", "Ciencias Sociales", "Lenguaje"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Agregadores Internet",
+	"area": ["Computación"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Servicios de seguridad ciudadana",
+	"area": ["Educación Cívica", "Religión"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Business Intelligence",
+	"area": ["Computación"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Transmisión de contenido en el rol de Streamer/Blogger/Youtuber",
+	"area": ["Deporte", "Religión", "Música"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Content Marketing",
+	"area": ["Psicología", "Lenguaje", "Inglés", "Quechua"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Prensa digital",
+	"area": ["Ciencias Sociales", "Lenguaje", "Inglés", "Quechua", "Religión"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Diseño web focalizado en el usuario, usabilidad, user experience",
+	"area": ["Computación", "Psicología"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Seguridad informática",
+	"area": ["Computación", "Matemáticas"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Organización digital del transporte",
+	"area": ["Computación", "Matemáticas", "Educación Cívica", "Artes Plásticas"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Tecnología espacial",
+	"area": ["Computación", "Física", "Artes Plásticas"],
+	"ods": [9, 11]
+}, {
+	"titulo": "SEO para negocios locales",
+	"area": ["Computación", "Ciencias Sociales", "Psicología"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Administración de comunidades digitales o rol de Community managers",
+	"area": ["Ciencias Sociales", "Lenguaje"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Viviendas Inteligentes",
+	"area": ["Computación", "Artes Plásticas"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Sensores",
+	"area": ["Computación", "Física", "Química", "Ciencias Naturales"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Biometría",
+	"area": ["Computación", "Ciencias Naturales", "Biología"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Aprendizaje Automático",
+	"area": ["Computación", "Matemáticas"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Supercomputadoras",
+	"area": ["Computación"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Comercio de algún producto natural",
+	"area": ["Ciencias Naturales", "Biología"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Hibridación",
+	"area": ["Química", "Ciencias Naturales"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Desarrollo de aplicaciones de computadora",
+	"area": ["Computación"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Realidad virtual y aumentada",
+	"area": ["Computación", "Artes Plásticas", "Psicología"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Innovación en la industria sanitaria",
+	"area": ["Química", "Ciencias Naturales"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Turismo especializado",
+	"area": ["Ciencias Sociales", "Historia", "Psicología"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Comercio internacional con Asia",
+	"area": ["Historia", "Ciencias Sociales"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Pilas de combustible, nueva generación de baterías…",
+	"area": ["Física", "Química", "Ciencias Naturales"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Conservación de especies y recuperación de ecosistemas",
+	"area": ["Ciencias Naturales", "Biología"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Máquinas expendedoras",
+	"area": ["Física", "Artes Plásticas"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Libro de cuentos con mensajes filosóficos",
+	"area": ["Filosofía"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Franquiciado de productos y servicios",
+	"area": ["Ciencias Sociales"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Radio comunitaria",
+	"area": ["Física", "Música", "Educación Cívica", "Religión"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Redes sociales especializadas y comunidades",
+	"area": ["Computación", "Religión", "Deporte", "Educación Cívica"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Innovación y reinvención de la edición tradicional (e-books y más)",
+	"area": ["Computación", "Lenguaje", "Inglés", "Quechua"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Desarrollo de la inteligencia emocional en la educación",
+	"area": ["Psicología"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Redes profesionales",
+	"area": ["Psicología", "Ciencias Sociales"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Solicitud y logro de cooperación y ayuda internacional",
+	"area": ["Ciencias Sociales", "Inglés"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Composición o interpretación de canciones de cualquier estilo",
+	"area": ["Música"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Tecnologías en el contexto de la música (ej. Secuenciadores)",
+	"area": ["Música"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Tecnologías emergentes en el ámbito militar",
+	"area": ["Educación Cívica", "Deporte"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Tecnologías emergentes espaciales",
+	"area": ["Física"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Tecnologías emergentes en la medicina",
+	"area": ["Biología", "Ciencias Naturales", "Deporte"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Medicina preventiva y vida saludable",
+	"area": ["Biología", "Ciencias Naturales", "Deporte"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Escuelas de emprendedores",
+	"area": ["Ciencias Sociales"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Tecnologías para el desarrollo de deportistas",
+	"area": ["Deporte"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Videojuegos y gamificación",
+	"area": ["Computación", "Psicología", "Religión", "Filosofía"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Organización remota y profesional de eventos",
+	"area": ["Religión", "Geografía"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Soluciones de software y hardware a medida",
+	"area": ["Computación"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Innovación educativa",
+	"area": ["Educación Cívica", "Ciencias Sociales", "Lenguaje", "Música"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Telemedicina",
+	"area": ["Biología", "Ciencias Naturales"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Nuevas formas de liderazgo político y social",
+	"area": ["Ciencias Sociales", "Educación Cívica", "Historia", "Filosofía"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Solución en origen a movimientos migratorios",
+	"area": ["Historia", "Filosofía", "Educación Cívica", "Ciencias Sociales"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Negociación inteligente(computarizada)",
+	"area": ["Computación", "Psicología", "Filosofía"],
+	"ods": [9, 11]
+}, {
+	"titulo": "NFC (Near Fear Communication)",
+	"area": ["Computación", "Física", "Matemáticas"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Prospectiva",
+	"area": ["Computación", "Religión", "Historia"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Internacionalización / Globalización",
+	"area": ["Lenguaje", "Inglés", "Quechua", "Geografía", "Historia", "Ciencias Sociales"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Profesionalización de la viralidad / Marketing viral",
+	"area": ["Ciencias Sociales", "Filosofía", "Lenguaje"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Tratamiento del envejecimiento, geriatría, servicios..",
+	"area": ["Deporte", "Ciencias Naturales", "Biología"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Grafeno (como ejemplo de nuevos materiales con propiedades excepcionales)",
+	"area": ["Física", "Química", "Ciencias Naturales", "Artes Plásticas"],
+	"ods": [9, 11]
+}, {
+	"titulo": "Tecnologías para la discapacidad",
+	"area": ["Computación", "Educación Cívica", "Deporte", "Lenguaje", "Artes Plásticas"],
+	"ods": [9, 11]
+}]

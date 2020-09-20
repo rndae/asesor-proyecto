@@ -9,7 +9,7 @@ from random import choice
 import json
 
 ENDPOINTS = {
-    "base": "info/proyectos.json"
+    "base": "proyectos.json"
 }
 
 AREAS = ["Matemáticas", "Química", "Física", "Biología",
