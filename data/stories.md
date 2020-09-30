@@ -209,3 +209,40 @@
 * pleased{"area":"gracias"}
     - slot{"area":"gracias"}
     - utter_completed
+
+## New Story
+
+* greet
+    - utter_how_can_i_help
+* greet
+    - utter_how_can_i_help
+* inform
+    - utter_ask_favorite_subject
+* info_area{"area":"matematicas"}
+    - slot{"area":"matematicas"}
+    - slot{"area":"matematicas"}
+    - action_project_search
+    - slot{"project":"Impresión 3D"}
+    - slot{"area":"Matemáticas"}
+    - utter_project
+* info_area{"area":"Física"}
+    - slot{"area":"Física"}
+    - slot{"area":"Física"}
+    - action_project_search
+    - slot{"project":"Nuevos Materiales"}
+    - slot{"area":"Física"}
+    - utter_project
+* info_area{"area":"Química"}
+    - slot{"area":"Química"}
+    - slot{"area":"Química"}
+    - action_project_search
+    - slot{"project":"Grafeno (Como Ejemplo De Nuevos Materiales Con Propiedades Excepcionales)"}
+    - slot{"area":"Química"}
+    - utter_project
+* pleased
+    - utter_completed
+* goodbye
+    - slot{"area":"matematicas"}
+    - slot{"area":"Física"}
+    - slot{"area":"Química"}
+    - utter_goodbye
