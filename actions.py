@@ -79,8 +79,11 @@ class ActionProjectSearch(Action):
         results = [project for project in projects_json if area in project["area"]]
         if results:
             selected = choice(results)
+            
             while len(results) > 1 and selected["titulo"] == previous_project:
               selected = choice(results)
+            
+            
             project_name = "{}".format(selected["titulo"].title())
                 
             return [SlotSet("project", project_name), SlotSet("area", area)]
