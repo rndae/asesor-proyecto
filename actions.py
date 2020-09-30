@@ -5,11 +5,11 @@ from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import SlotSet, FollowupAction
 from rasa_sdk.forms import FormAction
 
-from random import choice
-import json
+import requests
 
 ENDPOINTS = {
-    "base": "proyectos.json"
+    "base": "proyectos.json",
+    "enlace": "https://gist.githubusercontent.com/rndae/47627f3ee864e3eda969f31bec008772/raw/833216812f1517819daf4be2abfe43da22231ff9/projectos.json"
 }
 
 AREAS = ["Matemáticas", "Química", "Física", "Biología",
@@ -19,12 +19,9 @@ AREAS = ["Matemáticas", "Química", "Física", "Biología",
           "Geografía", "Deporte", "Educación Física", "Religión",
           "Quechua", "Computación", "Técnica Vocacional"]
 
-def _load_json(path):
-  data = ""
-  with open(path, "r", encoding = 'utf-8') as f:
-    data = json.load(f)    
-    
-  return data
+def _load_json_r(path):
+  r = requests.get(path)
+  return r.json()
   
 def _opti_leven_distance(a, b):
   dists = [ [0 for _ in range(len(b)+1)] for _ in range(len(a)+1) ]
@@ -75,8 +72,8 @@ class ActionProjectSearch(Action):
         area_slot = tracker.get_slot("area")
         area = _most_similar_word(area_slot, AREAS)
         previous_project = tracker.get_slot("project")
-        full_path = ENDPOINTS["base"]
-        projects_json = _load_json(full_path)
+        full_path = ENDPOINTS["enlace"]
+        projects_json = _load_json_r(full_path)
         results = [project for project in projects_json if area in project["area"]]
         if results:
             selected = choice(results)
