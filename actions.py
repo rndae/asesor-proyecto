@@ -6,6 +6,8 @@ from rasa_sdk.events import SlotSet, FollowupAction
 from rasa_sdk.forms import FormAction
 
 import requests
+from random import choice
+
 
 ENDPOINTS = {
     "base": "proyectos.json",
